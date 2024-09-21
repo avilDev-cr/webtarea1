@@ -1,0 +1,55 @@
+body .container{
+  margin: auto;
+  padding: auto;
+  width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    margin:  10px;
+}
+
+
+.bi-airplane{
+    transform: rotate(90deg);
+}
+/* Imágenes */
+.imgs {
+    width: 100%;
+    height: auto; /* Mantén la proporción de las imágenes */
+}
+
+/* Navegación fija */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    
+}
+
+/* Carousel */
+.carousel {
+    margin-bottom: 10%;
+}
+
+ol{
+
+}
+
+
+.footer{
+    color: white;
+    padding: 10%;
+    margin-top: 10%;
+    max-width: 100%;
+    height: 300px;
+    background-color: #131613;
+}
+.redes-sociales{
+    color: white;
+}
+footer .copy{
+    text-align: center;
+}
